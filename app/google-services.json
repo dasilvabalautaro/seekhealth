@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "729638156577",
+    "firebase_url": "https://seekhealth-6460a.firebaseio.com",
+    "project_id": "seekhealth-6460a",
+    "storage_bucket": "seekhealth-6460a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729638156577:android:04ea323e4d79b12c",
+        "android_client_info": {
+          "package_name": "com.mobile.seekhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729638156577-ek6edneoveritk0ebp4p2j24h1fdqa9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.seekhealth",
+            "certificate_hash": "14d50156a4dd1b9d06598306dd1ef828146969bd"
+          }
+        },
+        {
+          "client_id": "729638156577-ecl6pn9bkrqpv1shog4jgaankagdhoui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYjsEvcjOpzBaZhRHXKcZgtxVJ7eVfruE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729638156577-ecl6pn9bkrqpv1shog4jgaankagdhoui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

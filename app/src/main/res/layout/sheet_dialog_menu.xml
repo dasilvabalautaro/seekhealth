@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="24dp"
+    android:id="@+id/float_menu"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    app:behavior_peekHeight="60dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ib_capture"
+            android:background="@null"
+            android:src="@drawable/ic_capture"
+            android:contentDescription="@string/lbl_logo"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ib_pressure"
+            android:background="@null"
+            android:src="@drawable/ic_pressure"
+            android:contentDescription="@string/lbl_logo"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ib_report"
+            android:background="@null"
+            android:src="@drawable/ic_matrix"
+            android:contentDescription="@string/lbl_logo"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ib_graph"
+            android:background="@null"
+            android:src="@drawable/ic_graph"
+            android:contentDescription="@string/lbl_logo"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ib_assistant"
+            android:background="@null"
+            android:src="@drawable/ic_assistant"
+            android:contentDescription="@string/lbl_logo"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ib_buy"
+            android:background="@null"
+            android:src="@drawable/ic_add_shopping"
+            android:contentDescription="@string/lbl_logo"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
