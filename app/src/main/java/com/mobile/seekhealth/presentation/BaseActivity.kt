@@ -9,7 +9,10 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.TextView
+import com.mobile.seekhealth.App
 import com.mobile.seekhealth.R
+import com.mobile.seekhealth.model.UserRegisterFirebase
+import javax.inject.Inject
 
 abstract class BaseActivity: AppCompatActivity() {
     protected var etEmail: EditText? = null
@@ -20,10 +23,13 @@ abstract class BaseActivity: AppCompatActivity() {
     protected var rbNew: RadioButton? = null
     protected var btSend: Button? = null
 
+    @Inject
+    lateinit var userRegister: UserRegisterFirebase
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        App.appComponent.inject(this)
         val bottomSheet: View = findViewById(R.id.bottomSheetLayout)
         BottomSheetBehavior.from(bottomSheet)
         etEmail = findViewById(R.id.et_email) as EditText
